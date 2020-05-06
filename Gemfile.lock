@@ -101,6 +101,7 @@ GEM
     w3c_validators (1.3.5)
       json (>= 1.8)
       nokogiri (~> 1.6)
+    wdm (0.1.1)
     yell (2.2.2)
 
 PLATFORMS
@@ -111,6 +112,7 @@ DEPENDENCIES
   jekyll-theme-dinky!
   rubocop (~> 0.50)
   w3c_validators (~> 1.3)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.1.4
