@@ -1,0 +1,282 @@
+I"�L<h1 id="digitalskills-developer-and-user-documentation">DigitalSkills Developer and User Documentation</h1>
+
+<p><strong>General information</strong> on DigitalSkills can be found on the
+<a href="http://www.tudelft.nl/subsites/digital-skills/">Website of the DigitalSKills project</a></p>
+
+<p>This documentation (GitLab Pages) contains more <strong>detailed information on the content</strong> of the DigitalSkills
+materials, as well as technical details on how to start using it.</p>
+
+<p>This document has been generated using <a href="https://pages.gitlab.io/jekyll">Jekyll</a>.</p>
+
+<p><a href="https://pages.gitlab.io">Learn more about GitLab Pages</a> or read the the <a href="https://docs.gitlab.com/ce/user/project/pages/">official GitLab Pages documentation</a>.</p>
+
+<hr />
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<p><strong>Table of Contents</strong>  <em>generated with <a href="https://github.com/thlorenz/doctoc">DocToc</a></em></p>
+
+<ul>
+  <li><a href="#welcome">Welcome</a></li>
+  <li><a href="#getting-started">Getting Started</a>
+    <ul>
+      <li><a href="#start-by-forking-this-repository">Start by forking this repository</a></li>
+      <li><a href="#start-from-a-local-jekyll-project">Start from a local Jekyll project</a></li>
+    </ul>
+  </li>
+  <li><a href="#gitlab-ci">GitLab CI</a></li>
+  <li><a href="#using-jekyll-locally">Using Jekyll locally</a></li>
+  <li><a href="#gitlab-user-or-group-pages">GitLab User or Group Pages</a></li>
+  <li><a href="#did-you-fork-this-project">Did you fork this project?</a></li>
+  <li><a href="#other-examples">Other examples</a></li>
+  <li><a href="#troubleshooting">Troubleshooting</a></li>
+</ul>
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<h2 id="welcome">Welcome</h2>
+<p>You are probably a teacher teaching Python or something related. You picked up on <a href="http://www.tudelft.nl/subsites/digital-skills/">the DigitalSKills project</a> and want to check out for yourself what it is. In this repository, you find solid explanation of what DigitalSkills has to offer, and</p>
+
+<p>Perhaps you are a PhD student in search of a fitting way to dig into Python. Look around what this project has to offer.</p>
+
+<p>Maybe you are a student looking for background materials or some optional stuff. It’s in here.</p>
+
+<h2 id="what-digitalskills-has-to-offer">What DigitalSkills has to offer?</h2>
+<p>The easiest way to understand what DigitalSkills has to offer, is to think of it as a <em>cafetaria system</em>: you come in, and pick just what you need or like, given your appetite. We give you a menu card from which you can pick the things you want, and we generate that for you. We deliver it in a format, and for a platform you select.</p>
+
+<p>Okay, if you are entirely new in this field and look for an absolute starters package, we have something prepared for you already of the size of 1 ECTS. In some 25 to 30 hours, you or your students master the basics of Python. From there onward, you can expand with <a href="#optional-materials">optional materials</a>. Maybe you don’t like the proposed starters package, because for you, an important topic is missing. Don’t worry: you can extend the starting package, we call the <a href="#python-basic-programming">Python Basic Programming</a>; see below, with <a href="#extension-materials">extension materials</a>. In practice, the difference between optional and extension materials is not important: for some, the use of python <em>dictionaries</em> is a must, for some it is something extra to offer. Remember: you choose.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>First things first: this project contains Python course materials at three levels;</p>
+
+<ol>
+  <li>
+    <p><a href="#pbp">Python Basic Programming</a>, often abbreviated inhere to <strong>PBP</strong></p>
+  </li>
+  <li>
+    <p><a href="#pip">Python Intermediate Programming</a>, or <strong>PIP</strong></p>
+  </li>
+  <li>
+    <p><a href="#pap">Python Advanced Programming</a>, or <strong>PAP</strong></p>
+  </li>
+</ol>
+
+<h3 id="optional-materials">Optional materials</h3>
+<p>Optional materials come in many forms. Examples:</p>
+
+<ul>
+  <li>string functions</li>
+  <li>using matrices</li>
+  <li>using simple statistics</li>
+  <li>reading CSV-files</li>
+  <li>pretty printing output</li>
+  <li>plotting pie charts</li>
+  <li>…</li>
+</ul>
+
+<p>Optional materials can be selected not only as part of the <a href="#pbp">Python Basic Course</a>, but also as lead-in or support materials at a later stage, for instance when picking up <em>text analysis</em>, or <em>numerical computing</em>, or just another topic we will encounter in the <a href="#pip">Python Intermediate Programming</a> or in the <a href="#pap">Python Advanced Programming</a> course. After all: you determine the content of these as well, and you can select any optional material at any time.</p>
+
+<h3 id="extension-materials">Extension materials</h3>
+<p>We call material extension materials if for some of the curriculums (but not for all), is not a choice but a must-have. Some curriculums educate their students – head on – with the use of complex numbers. They may want to add as an extension, to their starters course, i.e., their version of the <a href="#pbp">Python Basic Course</a>. Others may never ever touch upon this topic.</p>
+
+<p>The difference between optional and extension materials is a bit artificial, and will not obstruct you in selecting any of these as part of your Python course.</p>
+
+<h2 id="ready-to-select-your-materials">Ready to select your materials?</h2>
+<p>Are you already familiar with DigitalSkills, and ready to proceed to the actual selection? Go and <a href="#selecting-your-course">proceed</a>. If not, we will explain you – briefly – how DigitalSkills works.</p>
+
+<ol>
+  <li>
+    <p>make your selection of content, platform, format etc. in the online form (<em>the menu card</em>) and submit the form</p>
+  </li>
+  <li>
+    <p>your materials are prepared and packed in a ZIP named as you specified, ready to be downloaded by you</p>
+  </li>
+  <li>
+    <p>install and check if according to your desires. If so, proceed, if not, redo</p>
+  </li>
+  <li>prepare your materials for your course setup, and your students:
+    <ul>
+      <li>if distributed through Brightspace: put them in your Brightspace Course</li>
+      <li>if you offer them on Vocareum: contact us to have them installed on Vocareum for you. We provide you with a connected module, and your students are good to go onto Vocareum, once they enrolled for your course on Brightspace</li>
+      <li>if distributed from GitLab or Github: decide to host them from your own course repository, or contact us, to do that from within our site using a link to your materials</li>
+    </ul>
+  </li>
+  <li>Once done with your course, send us your evaluation so that we can continuously improve our materials and our system</li>
+</ol>
+
+<p>More details will be given below.</p>
+
+<h3 id="make-your-selection-and-submit-the-online-form">Make your selection and submit the online form</h3>
+<ul>
+  <li>the skill level in Python your students have (by hours training, by topics thy master, or in basic-intermediate or advanced level)</li>
+  <li>learning materials you want to be covered, with the following restrictions:
+    <ul>
+      <li>some learning materials presume you master fundamentals needed for it (<em>prerequisites</em>); your students may have to revisit and review these prerequisites. you may choose to pack them with the other materials in your course, or you may choose to include pointers to these prerequisites</li>
+      <li>materials that broaden your students’ knowledge, but are not presumed mastered, are offered as <em>suggestions for optional materials</em> to you, which again can be pack along or referred to</li>
+    </ul>
+  </li>
+  <li>extension materials that you think must be included in your Python course</li>
+  <li>optional materials you want to be packed in or with your course</li>
+  <li>whether you want to offer your students a self-assessment (<em>entrance test</em>) from the start, to assess their entry skills level. The results of this assessment (this can be recorded in Brightspace, if desired)</li>
+  <li>whether you want students’ exercises tested</li>
+  <li>whether you want students’ exercises graded</li>
+  <li>whether you want to give your students intelligent feedback, based on testing results (future)</li>
+  <li>the programming environment and materials format:
+    <ul>
+      <li>as a <a href="http://jupyter.org">Jupyter notebook</a></li>
+      <li>as an Nteract notebook (future extension)</li>
+      <li>as an R-Notebook (future extension)</li>
+      <li>as a (ZIPped set of)<code class="highlighter-rouge">py</code>-script(s)</li>
+      <li>as a project structure, loadable into:
+        <ul>
+          <li><a href="https://www.spyder-ide.org/">Spyder</a> (included in Anaconda)</li>
+          <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> (included in Anaconda)</li>
+          <li><a href="https://docs.python.org/3/library/idle.html">IDLE</a> (included in Anaconda)</li>
+          <li><a href="https://www.vim.org/">vi(m)</a>, <a href="https://www.sublimetext.com/3">Sublime text 3</a>, <a href="http://bluefish.openoffice.nl/index.html">Bluefish</a>, <a href="http://brackets.io/">Brackets</a>, <a href="https://atom.io/">Atom</a>, <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a> …</li>
+          <li>PyCharm (http://jetbrains.com)</li>
+        </ul>
+      </li>
+      <li>as a GitLab or GitHub repository</li>
+    </ul>
+  </li>
+  <li>the target platform:
+    <ul>
+      <li>TU Delft <a href="http://anaconda.com/">Anaconda</a> standard installation, distributed from <a href="http://software.tudelft.nl">http://software.tudelft.nl</a> and installed in the <strong>digital exam environment</strong>
+        <ul>
+          <li>Spyder, available from this Anaconda installation</li>
+          <li><a href="https://jupyter-notebook.readthedocs.io/en/stable/">Jupyter Notebook</a> server packed in this Anaconda installation</li>
+          <li><a href="https://jupyterlab.readthedocs.io/en/latest/">JupyterLab</a> server packed in this Anaconda installation</li>
+        </ul>
+      </li>
+      <li>a virtual environment to be packed with your materials (future)</li>
+      <li>Jupyter Notebook on <a href="https://www.vocareum.com/">Vocareum Cloud</a></li>
+      <li><a href="https://www.jetbrains.com/pycharm/promo/anaconda/">PyCharms with Anaconda Plugin</a></li>
+      <li>whether you want to conclude your course using:
+        <ol>
+          <li>a self-assessment at the end (<em>exit test</em>), or:</li>
+          <li>an  <em>exam</em>, and:</li>
+          <li>whether you want to use <em>autograding</em>, <em>intelligent feedback</em>, and:</li>
+          <li>you want results recorded in Brightspace</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="preparing-your-zip-for-download">Preparing your ZIP for download</h3>
+<ul>
+  <li>based on your selections we generate and bundle materials as described above</li>
+  <li>we write the notebook (JSON) file or <code class="highlighter-rouge">py</code>-scripts</li>
+  <li>we generate tests and insert them in your package</li>
+  <li>we configure autograding, as desired</li>
+  <li>we notify you of the materials by email</li>
+</ul>
+
+<h3 id="install-and-verification">Install and verification</h3>
+<p>Packages we generate for you, have a standard directory structure that should not be altered: the structure is relevant for locating components. All packages come with a clear README and INSTRUCTIONS for installation, verification and deployment.</p>
+
+<p>The package may not be what you had in mind; you’re free to select what you really need and have that generated.</p>
+
+<h3 id="prepare-your-materials-for-your-course-setup-and-your-students">Prepare your materials for your course setup, and your students:</h3>
+<p>Deployment of the course materials can take place in several ways, you might opt for:</p>
+
+<ol>
+  <li>on Brightspace, as (an element of) your Course. Just upload files or the entire ZIP to Brightspace, where students can download them from, and where they can hand-in any work done</li>
+  <li>on the Vocareum Cloud platform, single-sign on reachable for anyone that is enrolled in your course on Brightspace</li>
+  <li>on GitHub, Gitlab, Amazon, BitBucket, or anything like, as a repository students can clone or fork using Git</li>
+</ol>
+
+<h3 id="send-us-your-evaluation">Send us your evaluation</h3>
+<p>Once done with your course, send us your evaluation, better even: your course learning statistics and performance measures, so that we can continuously improve our materials and our system</p>
+
+<p><strong>Remarks</strong>:</p>
+
+<ol>
+  <li>DigitalSkills offers <strong>python version 3</strong> only. If you need Python version 2, either have a virtual environment prepared, with a python 2 kernel</li>
+  <li>most IDE’s, such as PyCharm, tend to generate a virtual environment for a project by default</li>
+  <li><a href="http://ipython.org"><code class="highlighter-rouge">IPython</code></a> is natively embedded in Anaconda</li>
+</ol>
+
+<p>What you may have noticed is that a package is composed of the following materials:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Sort</th>
+      <th style="text-align: left">Material</th>
+      <th style="text-align: left">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">always present</td>
+      <td style="text-align: left">learning materials, <em>single topic</em></td>
+      <td style="text-align: left">as per request, notebook or <code class="highlighter-rouge">py</code>-script</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionally present</td>
+      <td style="text-align: left">extension materials, <em>one or more subtopics</em></td>
+      <td style="text-align: left">as per request, notebook or <code class="highlighter-rouge">py</code>-script</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionally present</td>
+      <td style="text-align: left">optional materials, <em>one or more subtopics</em></td>
+      <td style="text-align: left">as per request, notebook or <code class="highlighter-rouge">py</code>-script</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionally present</td>
+      <td style="text-align: left">grading tests</td>
+      <td style="text-align: left">as per request, notebook or <code class="highlighter-rouge">py</code>-script</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionally present</td>
+      <td style="text-align: left">programming project, <em>single set of use cases or topic</em></td>
+      <td style="text-align: left">as per request, notebook or <code class="highlighter-rouge">py</code>-script</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionally present</td>
+      <td style="text-align: left">entrance test, <em>one or more subtopics</em></td>
+      <td style="text-align: left">as per request, notebook or <code class="highlighter-rouge">py</code>-script</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">optionally present</td>
+      <td style="text-align: left">exiting test, <em>one or more subtopics</em></td>
+      <td style="text-align: left">as per request, notebook or <code class="highlighter-rouge">py</code>-script</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="entrance-and-exit-tests">Entrance and Exit tests</h2>
+<p>As stated in the beginning: you as a teacher teaching Python, you set the specific learning goals of your course. If you want DigitalSkills to deliver supporting materials, these materials should have supportive goals that support the reaching of you learning goals. Yes; you have the final say over your learning goals, we only support. we may support two teachers using the same materials, even if these two teacher do not have precisely the same learning goals! To make thinks not overly complicated, we speak about <em>learning goals</em> as well, in the case we actually mean: supportive goals.</p>
+
+<p>The DigitalSkills learning goals are the goals to be assessed in an <em>exit test</em>. If students may (in part) already possess these skills on entrance of your course, you may offer an <em>entrance test</em>. Clearly, exit test, entrance tests and the learning goals have a clear relationship: in some instances, the exit test may also be offered as an entrance test.</p>
+
+<h2 id="programming-projects">Programming projects</h2>
+<p>Programming projects seek to prompt students to apply all what has been taught in the learning materials, in a challenging application. For complex problems, coming up with a fully self-designed solution may be out of scope, and hard to grade. To facilitate, such solutions may be broken down in partial solutions, and the students may be asked to provide the solutions in a number of steps, in a skeleton, so that their solution can more easily be compared and graded. A programming project <em>with a skeleton for the solution</em>, is much easier to auto-grade than is a fully open programming project.</p>
+
+<p>As a result, we offer different sorts of programming projects:</p>
+
+<ol>
+  <li>
+    <p>programming projects with a <strong>fixed set of use cases plus a skeleton for a solution</strong></p>
+  </li>
+  <li>
+    <p>like 1, <strong>a skeleton is given, but use cases are not given</strong></p>
+  </li>
+  <li>
+    <p>simply an open challenge for a solution, <strong>no skeleton, no use cases given</strong>.</p>
+  </li>
+</ol>
+
+<p>Observe that programming project type 1 is most-guided, projects type 3 least, and the problem analysis and design component grows significantly from type 1 to type 2 to type 3.</p>
+
+<h3 id="guided-projects">guided projects</h3>
+<p>Type 1 is the programming project with a <strong>fixed set of use cases plus a skeleton for a solution</strong>, in which after translating use cases into test cases, each of the partial solutions in the skeleton can be autograded. A Test-Driven Development (TDD) method can be applied for each of the steps, resulting in a well-specified and confined task for the student. Autograding is based on the use cases given. If needed, the conversion of use ccases into test cases and the TDD can be included in the skeleton for the solution.</p>
+
+<h3 id="semi-guided-projects">semi-guided projects</h3>
+<p>Type 2 programming projects are like type 1, but <strong>though a skeleton is given, use cases are not</strong>; students have to discern the use cases and consequently the test cases themselves. Autograding is like in 1. This type of programming project demands more of the problem analysis skills, than type 1 projects. Since the skeleton frames the solution, autograding and partial grading will still be possible.</p>
+
+<h3 id="open-and-unframed-programming-projects">Open and unframed programming projects</h3>
+<p>Type 3 programming projects are simply open challenge for a solution, <strong>no skeleton, no use cases given</strong>. Students may come with solutions obtained using completely different reasoning and logic. Practically speaking, only the final solution can be autograded; partial success and failures can be hard to assess. Autograding will be much more complex in this case, and care must be taken when applying it. Student are challenged most in this type of programming efforts, when it comes to problem analysis, algorithmic approaches, and framing of the solution.</p>
+:ET
