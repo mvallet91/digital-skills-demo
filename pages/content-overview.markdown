@@ -7,16 +7,16 @@ categories: design
 # Digital Skills Developer and User Documentation
 
 **General information** on DigitalSkills can be found on the
-[Website of the DigitalSKills project](http://www.tudelft.nl/subsites/digital-skills/)
+[Website of the Digital Skills project](http://www.tudelft.nl/subsites/digital-skills/)
 
-This documentation (GitLab Pages) contains more **detailed information on the content** of the DigitalSkills
+This documentation contains more **detailed information on the content** of the Digital Skills
 materials, as well as technical details on how to start using it.
 
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents** 
 
 - [Welcome](#welcome)
 - [What DigitalSkills has to offer?](#what-digitalskills-has-to-offer)
