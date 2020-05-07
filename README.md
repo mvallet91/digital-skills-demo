@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [The Dinky theme](#the-dinky-theme)
+  - [Usage](#usage)
+  - [Customizing](#customizing)
+    - [Configuration variables](#configuration-variables)
+    - [Stylesheet](#stylesheet)
+    - [Layouts](#layouts)
+    - [Overriding GitHub-generated URLs](#overriding-github-generated-urls)
+  - [Roadmap](#roadmap)
+  - [Project philosophy](#project-philosophy)
+  - [Contributing](#contributing)
+    - [Previewing the theme locally](#previewing-the-theme-locally)
+    - [Running tests](#running-tests)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # The Dinky theme
 
 [![Build Status](https://travis-ci.org/pages-themes/dinky.svg?branch=master)](https://travis-ci.org/pages-themes/dinky) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-dinky.svg)](https://badge.fury.io/rb/jekyll-theme-dinky)

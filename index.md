@@ -12,6 +12,22 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+
+- [Header 1](#header-1)
+  - [Header 2](#header-2)
+    - [Header 3](#header-3)
+      - [Header 4](#header-4)
+        - [Header 5](#header-5)
+          - [Header 6](#header-6)
+    - [There's a horizontal rule below this.](#theres-a-horizontal-rule-below-this)
+    - [Here is an unordered list:](#here-is-an-unordered-list)
+    - [And an ordered list:](#and-an-ordered-list)
+    - [And a nested list:](#and-a-nested-list)
+    - [Small image](#small-image)
+    - [Large image](#large-image)
+    - [Definition lists can be used with HTML syntax.](#definition-lists-can-be-used-with-html-syntax)
+
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.

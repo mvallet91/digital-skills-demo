@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Contributing to The Dinky Theme](#contributing-to-the-dinky-theme)
+  - [Looking for support?](#looking-for-support)
+  - [How to report a bug](#how-to-report-a-bug)
+  - [How to suggest a feature or enhancement](#how-to-suggest-a-feature-or-enhancement)
+  - [Your first contribution](#your-first-contribution)
+  - [How to propose changes](#how-to-propose-changes)
+  - [Bootstrapping your local development environment](#bootstrapping-your-local-development-environment)
+  - [Running tests](#running-tests)
+  - [Code of conduct](#code-of-conduct)
+  - [Additional Resources](#additional-resources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Contributing to The Dinky Theme
 
 Hi there! We're thrilled that you'd like to contribute to The Dinky Theme. Your help is essential for keeping it great.

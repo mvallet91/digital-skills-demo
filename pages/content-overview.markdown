@@ -4,17 +4,13 @@ title:  "2020 design Digital Skills"
 date:   2020-04-19 12:02:16 -0300
 categories: design
 ---
-# DigitalSkills Developer and User Documentation
+# Digital Skills Developer and User Documentation
 
 **General information** on DigitalSkills can be found on the
 [Website of the DigitalSKills project](http://www.tudelft.nl/subsites/digital-skills/)
 
 This documentation (GitLab Pages) contains more **detailed information on the content** of the DigitalSkills
 materials, as well as technical details on how to start using it.
-
-This document has been generated using [Jekyll](https://pages.gitlab.io/jekyll).
-
-[Learn more about GitLab Pages](https://pages.gitlab.io) or read the the [official GitLab Pages documentation](https://docs.gitlab.com/ce/user/project/pages/).
 
 ---
 
@@ -23,15 +19,21 @@ This document has been generated using [Jekyll](https://pages.gitlab.io/jekyll).
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Welcome](#welcome)
+- [What DigitalSkills has to offer?](#what-digitalskills-has-to-offer)
 - [Getting Started](#getting-started)
-  - [Start by forking this repository](#start-by-forking-this-repository)
-  - [Start from a local Jekyll project](#start-from-a-local-jekyll-project)
-- [GitLab CI](#gitlab-ci)
-- [Using Jekyll locally](#using-jekyll-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Other examples](#other-examples)
-- [Troubleshooting](#troubleshooting)
+  - [Optional materials](#optional-materials)
+  - [Extension materials](#extension-materials)
+- [Ready to select your materials?](#ready-to-select-your-materials)
+  - [Make your selection and submit the online form](#make-your-selection-and-submit-the-online-form)
+  - [Preparing your ZIP for download](#preparing-your-zip-for-download)
+  - [Install and verification](#install-and-verification)
+  - [Prepare your materials for your course setup, and your students:](#prepare-your-materials-for-your-course-setup-and-your-students)
+  - [Send us your evaluation](#send-us-your-evaluation)
+- [Entrance and Exit tests](#entrance-and-exit-tests)
+- [Programming projects](#programming-projects)
+  - [Guided projects](#guided-projects)
+  - [Semi-guided projects](#semi-guided-projects)
+  - [Open and unframed programming projects](#open-and-unframed-programming-projects)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -78,7 +80,7 @@ The difference between optional and extension materials is a bit artificial, and
 ## Ready to select your materials?
 Are you already familiar with DigitalSkills, and ready to proceed to the actual selection? Go and [proceed](#selecting-your-course). If not, we will explain you -- briefly -- how DigitalSkills works.
 
-1. make your selection of content, platform, format etc. in the online form (*the menu card*) and submit the form
+1. Make your selection of content, platform, format etc. in the online form (*the menu card*) and submit the form
 
 2. your materials are prepared and packed in a ZIP named as you specified, ready to be downloaded by you
 
@@ -188,10 +190,10 @@ As a result, we offer different sorts of programming projects:
 
 Observe that programming project type 1 is most-guided, projects type 3 least, and the problem analysis and design component grows significantly from type 1 to type 2 to type 3.
 
-### guided projects
+### Guided projects
 Type 1 is the programming project with a **fixed set of use cases plus a skeleton for a solution**, in which after translating use cases into test cases, each of the partial solutions in the skeleton can be autograded. A Test-Driven Development (TDD) method can be applied for each of the steps, resulting in a well-specified and confined task for the student. Autograding is based on the use cases given. If needed, the conversion of use ccases into test cases and the TDD can be included in the skeleton for the solution.
 
-### semi-guided projects
+### Semi-guided projects
 Type 2 programming projects are like type 1, but **though a skeleton is given, use cases are not**; students have to discern the use cases and consequently the test cases themselves. Autograding is like in 1. This type of programming project demands more of the problem analysis skills, than type 1 projects. Since the skeleton frames the solution, autograding and partial grading will still be possible.
 
 ### Open and unframed programming projects

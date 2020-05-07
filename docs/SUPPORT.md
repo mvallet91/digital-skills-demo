@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Where to get help](#where-to-get-help)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Where to get help
 
 If you think you've found a bug in The Dinky Theme, please [check the existing issues](https://github.com/pages-themes/dinky/issues), and if no one has reported the problem, [open a new issue](https://github.com/pages-themes/dinky/issues/new).
